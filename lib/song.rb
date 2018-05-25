@@ -15,3 +15,6 @@ class Song
   end
 
 end
+require 'pry'
+self
+binding.pry

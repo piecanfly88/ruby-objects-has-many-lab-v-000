@@ -10,6 +10,7 @@ class Song
     self.name = artist.name
     if artist.name = nil
       nil
+    end
   end
 
 end

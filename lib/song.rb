@@ -5,14 +5,9 @@ class Song
   def initialize(name)
     @name = name
    end
-require 'pry'
+
   def artist_name
-      if self.artist.name != nil
-        self.artist.name
-      else
-        nil
-      end
+    self.artist = name
   end
-  binding.pry
 
 end

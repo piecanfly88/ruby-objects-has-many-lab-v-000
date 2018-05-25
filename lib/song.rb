@@ -13,8 +13,8 @@ class Song
         nil
       end
   end
+  require 'pry'
+  self
+  binding.pry
 
 end
-require 'pry'
-self
-binding.pry
